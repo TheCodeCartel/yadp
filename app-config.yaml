@@ -106,6 +106,13 @@ catalog:
       rules:
         - allow: [Template]
 
+    # Remote GitHub repo containing TheCodeCartel GitHub Org's backstage templates
+    - type: url
+      target: https://github.com/TheCodeCartel/backstage-templates/blob/main/scaffolder-templates/backstage-demo-template/template.yaml
+      rules:
+        - allow: [Template]
+      
+
     # Local example organizational data
     - type: file
       target: ../../examples/org.yaml
